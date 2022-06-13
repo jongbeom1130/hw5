@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  web:
+    container_name: "hw4c"
+    build: .
+  production:
+    image: "hw4:latest"
+    ports:
+      - "80:80"
