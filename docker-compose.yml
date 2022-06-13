@@ -3,6 +3,7 @@ services:
   web:
     container_name: "hw4c"
     build: .
+    image: "hw4"
   production:
     image: "hw4:latest"
     ports:
