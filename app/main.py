@@ -11,6 +11,7 @@ def result():
       result = dict()
       result['Name'] = request.form.get('Name')
       result['Univ'] = request.form.get('Univ')
+      result['Age'] = request.form.get('Age')
       # 학번
       result['Student Number'] = request.form.get('Num')
       # 성별
