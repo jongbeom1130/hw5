@@ -3,8 +3,8 @@ services:
   web:
     container_name: "hw4c"
     build: .
-    image: "hw4"
+    image: "jongbeom1130/hw4"
   production:
-    image: "hw4:latest"
+    image: "jongbeom1130/hw4:latest"
     ports:
       - "80:80"
